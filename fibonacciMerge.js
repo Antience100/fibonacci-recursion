@@ -15,6 +15,7 @@ function merge(left, right) {
   return [...sortedArray, ...left, ...right];
 }
 function mergeSort(array) {
+  console.log("This was printed recursively");
   if (array.length <= 1) return array;
 
   let middle = Math.floor(array.length / 2);
